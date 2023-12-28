@@ -13,10 +13,10 @@
         </div>
       </div>
     </div>
-    <div class="bg-black p-3 w-fit m-auto gap-3 flex justify-center items-center">
-      <a href="">Twitter</a>
-      <a href="">Twitter</a>
-      <a href="">Twitter</a>
+    <div class="bg-black p-3 md:p-6 w-fit m-auto gap-6 rounded text-3xl flex justify-center items-center">
+      <a href="http://github.com/yungifez" class="bi-github"></a>
+      <a href="https://www.linkedin.com/in/marvellous-ifezue-1712361b0/" class="bi-linkedin"></a>
+      <a href="https://twitter.com/yungifez/" class="bi-twitter-x"></a>
     </div>
   </header>  
   <main>
@@ -28,7 +28,4 @@
 </template>
 
 <style scoped>
-  h2{
-    letter-spacing: 0.25rem;
-  }
 </style>

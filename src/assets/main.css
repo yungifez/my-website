@@ -1,5 +1,7 @@
 @import './base.css';
 
+@import "~/bootstrap-icons/font/bootstrap-icons.css";
+
 body{
   background: black;
 }
@@ -7,6 +9,7 @@ body{
 
 .typing{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
+  letter-spacing: 0.25rem;
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   animation: 
