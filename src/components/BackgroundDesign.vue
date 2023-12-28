@@ -3,7 +3,7 @@
 
   const matrixStrings = ref([]) 
   function populateMatrix() {
-      let numberOfItems = 80;
+      let numberOfItems = 200;
       for (let i = 0; i <= numberOfItems; i++) {
         matrixStrings.value.push("");
       }
@@ -12,7 +12,7 @@
   function keepPopulatingMatrix() {
     matrixStrings.value.forEach((element, index) => {
       matrixStrings.value[index] = Math.random() > 0.5 
-          ? element+(Math.random() > 0.5 ? "01" : "10") 
+          ? element+(String.fromCharCode(Math.random() * 20 + 40)) 
             : element;
     });
   }
@@ -25,13 +25,13 @@
 
   setTimeout(() => {
     clearInterval(matrixInterval)
-  }, 2000);
+  }, 3500);
 </script>
 
 <template>
   <div class="-z-10 opacity-80 text-green-600 fixed top-0 overflow-clip leading-2 flex" style="letter-spacing: 0.15rem;">
     <template v-for="matrixString in matrixStrings">
-    <p>
+    <p class="">
       {{matrixString}}
     </p> 
     </template> 
