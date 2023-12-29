@@ -1,41 +1,53 @@
 @import './base.css';
+@import '~/bootstrap-icons/font/bootstrap-icons.css';
 
-@import "~/bootstrap-icons/font/bootstrap-icons.css";
-
-body{
+body {
   background: black;
 }
 
-.animate-in-pulse{
+.animate-in-pulse {
   opacity: 0;
-  animation: animate-in-pulse 1.5s forwards
+  animation: animate-in-pulse 1.5s forwards;
 }
 
-@keyframes animate-in-pulse{
-  from {opacity: 0}
-  to {opacity: unset}
+@keyframes animate-in-pulse {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: unset;
+  }
 }
 
-.typing{
+.typing {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   letter-spacing: 0.25rem;
-  border-right: .15em solid green; /* The typwriter cursor */
+  border-right: 0.15em solid green; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
-  animation: 
+  animation:
     typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    blink-caret 0.75s step-end infinite;
 }
 
-.typing-center{
+.typing-center {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: green; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: green;
+  }
 }
