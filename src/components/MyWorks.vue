@@ -4,8 +4,7 @@
 
 <template>
   <section
-    class="mt-5 leading-7 animate-on-scroll opacity-0"
-    data-animate-scroll-class="animate-in-pulse"
+    class="mt-5 leading-7"
   >
     <div class="w-fit m-auto">
       <h2
