@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import AboutMe from './components/AboutMe.vue'
+import MyWorks from './components/MyWorks.vue'
 import BackgroundDesign from './components/BackgroundDesign.vue'
 </script>
 
@@ -23,7 +24,7 @@ import BackgroundDesign from './components/BackgroundDesign.vue'
       </div>
     </div>
     <div
-      class="bg-black p-3 md:p-6 w-fit m-auto gap-6 rounded text-3xl flex justify-center items-center animate-on-scroll"
+      class="bg-black p-3 md:p-6 w-fit m-auto gap-8 rounded text-3xl flex justify-center items-center animate-on-scroll"
       data-animate-scroll-class="animate-in-pulse"
     >
       <a

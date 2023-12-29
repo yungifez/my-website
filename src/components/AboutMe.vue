@@ -28,17 +28,4 @@
       programming related sciences and some art subjects as a passtime
     </p>
   </section>
-  <section
-    class="mt-5 p-5 leading-7 animate-on-scroll opacity-0"
-    data-animate-scroll-class="animate-in-pulse"
-  >
-    <div class="w-fit m-auto">
-      <h2
-        class="animate-on-scroll typing-center text-center text-3xl md:text-4xl lg:text-5xl"
-        data-animate-scroll-class="typing"
-      >
-        My Works
-      </h2>
-    </div>
-  </section>
 </template>
